@@ -123,7 +123,7 @@ $(document).ready(function () {
 		opacityOver: 1.0,
 		opacityOut: 0.05,
 		opacitySpeed: 6,
-		fov: 600,
+		fov: 100,
 		speed: 1,
 		fontFamily: 'Courier,Arial,sansSerif',
 		fontSize: '30',
