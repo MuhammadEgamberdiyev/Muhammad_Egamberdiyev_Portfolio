@@ -229,7 +229,7 @@ a {
 
 .home {
 	display: flex;
-	background: url(./Images/home-background-images.webp) no-repeat center;
+	background: url(../Images/home-background-images.webp) no-repeat center;
 	background-blend-mode: multiply;
 	height: 100vh;
 	color: #fff;
