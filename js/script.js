@@ -124,7 +124,7 @@ $(document).ready(function () {
 		opacityOut: 0.05,
 		opacitySpeed: 6,
 		fov: 100,
-		speed: 1.2,
+		speed: 0.5,
 		fontFamily: 'Courier,Arial,sansSerif',
 		fontSize: '30',
 		fontColor: '#ff0b56',
