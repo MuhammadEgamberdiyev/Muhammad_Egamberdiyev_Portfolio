@@ -128,7 +128,7 @@ $(document).ready(function () {
 		fontFamily: 'Courier,Arial,sansSerif',
 		fontSize: '30',
 		fontColor: '#ff0b56',
-		fontWeight: 'bold',
+		fontWeight: 'italic',
 		fontStyle: 'normal',
 		fontStretch: 'normal',
 	};
