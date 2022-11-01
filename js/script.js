@@ -127,7 +127,7 @@ $(document).ready(function () {
 		speed: 0.5,
 		fontFamily: 'Courier,Arial,sansSerif',
 		fontSize: '30',
-		fontColor: '#ff0b56',
+		fontColor: 'aqua',
 		fontWeight: 'bold',
 		fontStyle: 'normal',
 		fontStretch: 'normal',
