@@ -101,7 +101,7 @@ $(document).ready(function () {
 		{ label: 'GIT' },
 		{ label: 'GITHUB' },
 		{ label: 'VS CODE' },
-		{ label: 'REACT JS' },
+		{ label: '      ' },
 		{ label: 'REST API' },
 		{ label: 'MONGO DB' },
 		{ label: 'NPM' },
