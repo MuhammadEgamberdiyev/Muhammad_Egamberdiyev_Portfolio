@@ -102,7 +102,7 @@ $(document).ready(function () {
 		{ label: 'GITHUB' },
 		{ label: 'VS CODE' },
 		{ label: '      ' },
-		{ label: 'REST API' },
+		{ label: 'React js' },
 		{ label: 'MONGO DB' },
 		{ label: 'NPM' },
 		{ label: 'BEM' },
