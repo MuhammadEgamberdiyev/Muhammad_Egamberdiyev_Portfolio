@@ -116,7 +116,7 @@ $(document).ready(function () {
 		entries: entries,
 		width: '100%',
 		height: '100%',
-		radius: '100%',
+		radius: '70%',
 		radiusMin: 75,
 		bgDraw: true,
 		bgColor: 'transparent',
