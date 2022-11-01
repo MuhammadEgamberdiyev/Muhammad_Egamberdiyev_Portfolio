@@ -126,7 +126,7 @@ $(document).ready(function () {
 		fov: 100,
 		speed: 0.5,
 		fontFamily: 'Courier,Arial,sansSerif',
-		fontSize: '40',
+		fontSize: '32',
 		fontColor: '#ff0b56',
 		fontWeight: 'bold',
 		fontStyle: 'normal',
