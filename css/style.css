@@ -526,6 +526,10 @@ a {
 
 /* teams section styling */
 
+.teams {
+	background: white;
+}
+
 .teams .title::after {
 	content: 'who with me';
 }
