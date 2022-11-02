@@ -1,2 +1,2 @@
-# muhammadegamberdiyevportfolio
+# muhammadegamberdiyev.uz
 Personal Portfolio
