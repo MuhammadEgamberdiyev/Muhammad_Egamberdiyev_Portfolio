@@ -809,15 +809,6 @@ a {
 	border: 3px solid crimson;
 	cursor: pointer;
 	transition: .5s ease;
-	position: relative;
-}
-
-.contact-form .input-box .send-btn:active::after {
-	width: 100%;
-}
-
-.contact-form .input-box .send-btn:active::before {
-	width: 100%;
 }
   
 .contact-form .input-box .send-btn:hover {
