@@ -812,27 +812,6 @@ a {
 	position: relative;
 }
 
-.contact-form .input-box .send-btn::before {
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: crimson;
-	transition: all .3s ease-in-out;
-}
-.contact-form .input-box .send-btn::after {
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 100%;
-	right: 0;
-	top: 0;
-	background: crimson;
-	transition: all .3s ease-in-out;
-}
-
 .contact-form .input-box .send-btn:active::after {
 	width: 100%;
 }
