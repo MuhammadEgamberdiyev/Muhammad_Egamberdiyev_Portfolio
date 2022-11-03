@@ -229,7 +229,7 @@ a {
 
 .home {
 	display: flex;
-	background: url(../Images/se-image-4f750982624e527a8b1003408e4febcf.jpg) no-repeat center;
+	background: url(../Images/home-background-img.jpg) no-repeat center;
 	background-blend-mode: multiply;
 	height: 100vh;
 	color: #fff;
