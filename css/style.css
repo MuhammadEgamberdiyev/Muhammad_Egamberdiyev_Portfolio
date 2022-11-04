@@ -140,12 +140,12 @@ section .title::after {
 .navbar .logo a {
     color: #fff;
     font-size: 35px;
+    transition: all 0.3s ease;
     font-weight: 600;
 }
 
 .navbar .logo a span {
     color: crimson;
-    transition: all 0.3s ease;
 }
 
 .navbar.sticky .logo a {
@@ -169,18 +169,6 @@ section .title::after {
 
 .navbar.sticky .menu li a {
     color: crimson;
-}
-
-.name .menu li a::before {
-    content: '';
-    position: absolute;
-    width: 0px;
-    height: 3px;
-    background: white;
-}
-
-.navbar .menu li a:hover::before {
-    width: 100%;
 }
 
 .navbar.sticky .menu li a:hover {
