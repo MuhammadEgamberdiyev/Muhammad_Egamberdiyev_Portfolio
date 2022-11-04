@@ -517,18 +517,18 @@ a {
     background: crimson;
 }
 
-.skills .javascript::before {
+.skills .Bootstrap::before {
     width: 50%;
     background: crimson;
 }
 
-.skills .jquery::before {
+.skills .JavaScript::before {
     width: 7%;
     background: crimson;
 }
 
-.skills .php::before {
-    width: 10%;
+.skills .Python::before {
+    width: 12%;
     background: crimson;
 }
 
