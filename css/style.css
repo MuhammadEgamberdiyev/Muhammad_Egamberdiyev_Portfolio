@@ -27,7 +27,9 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: crimson;
+    background: rgb(255,195,250);
+    background: linear-gradient(180deg, rgba(255,195,250,1) 0%, rgba(255,178,178,1) 38%, rgba(255,0,0,1) 100%);
+    border-radius: 0px 0px 10px 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
