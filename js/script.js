@@ -104,6 +104,7 @@ $(document).ready(function() {
         { label: 'React js' },
         { label: 'MONGO DB' },
         { label: 'NPM' },
+        { label: '     ' },
         { label: 'BEM' },
         { label: 'ES6' },
         { label: 'Python' },
