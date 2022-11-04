@@ -159,12 +159,16 @@ section .title::after {
 
 .navbar .menu li a {
     display: block;
-    color: crimson;
+    color: white;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: .5s ease-in-out;
     position: relative;
+}
+
+.navbar.sticky .menu li a {
+    color: crimson;
 }
 
 .name .menu li a::before {
