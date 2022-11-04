@@ -126,7 +126,7 @@ $(document).ready(function() {
         opacitySpeed: 6,
         fov: 100,
         speed: 0.6,
-        fontFamily: 'italic',
+        fontFamily: 'Courier,sansSerif',
         fontSize: '32',
         fontColor: '#ff0b56',
         fontWeight: 'bold',
