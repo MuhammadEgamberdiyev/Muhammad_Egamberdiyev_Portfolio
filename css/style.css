@@ -234,7 +234,7 @@ a {
 
 .home {
     display: flex;
-    background: url(../Images/home-background-img.jpg) no-repeat center;
+    background: url(../Images/giphy.gif) no-repeat center;
     background-blend-mode: multiply;
     height: 100vh;
     color: #fff;
