@@ -127,7 +127,7 @@ section .title::after {
 
 .navbar.sticky {
     padding: 15px 0;
-    /* background: crimson; */
+    background: rgba(220, 20, 60, 0.384);
     box-shadow: 0px 0px 10px black;
     backdrop-filter: blur(6px);
 }
@@ -160,7 +160,7 @@ section .title::after {
 
 .navbar .menu li a {
     display: block;
-    color: #fff;
+    color: crimson;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
