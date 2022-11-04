@@ -309,7 +309,7 @@ a {
     width: 600px;
     object-fit: cover;
     /* border-radius: 6px; */
-    border: 10px dotted crimson;
+    border: 10px groove crimson;
 }
 
 .about .about-content .right {
