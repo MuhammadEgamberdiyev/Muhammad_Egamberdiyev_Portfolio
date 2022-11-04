@@ -123,12 +123,12 @@ section .title::after {
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    box-shadow: 0px 0px 10px black;
 }
 
 .navbar.sticky {
     padding: 15px 0;
     background: crimson;
+    box-shadow: 0px 0px 10px black;
 }
 
 .navbar .max-width {
