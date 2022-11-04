@@ -127,9 +127,8 @@ section .title::after {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: rgba(220, 20, 60, 0.384);
+    background: crimson;
     box-shadow: 0px 0px 10px black;
-    backdrop-filter: blur(6px);
 }
 
 .navbar .max-width {
