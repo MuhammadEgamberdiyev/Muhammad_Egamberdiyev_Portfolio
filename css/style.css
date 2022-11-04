@@ -308,8 +308,8 @@ a {
     height: 400px;
     width: 600px;
     object-fit: cover;
-    border-radius: 6px;
-    border: 5px double crimson;
+    /* border-radius: 6px; */
+    border: 10px double crimson;
 }
 
 .about .about-content .right {
