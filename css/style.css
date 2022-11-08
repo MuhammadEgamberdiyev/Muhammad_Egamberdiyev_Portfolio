@@ -809,7 +809,7 @@ a {
     }
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1245px) {
     .typing-2,.typing-3 {
         display: none;
     }
