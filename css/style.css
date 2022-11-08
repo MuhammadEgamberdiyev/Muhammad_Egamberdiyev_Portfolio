@@ -906,6 +906,9 @@ a {
     .max-width {
         padding: 0 23px;
     }
+    .typing-2 {
+        display: none;
+    }
     .home .home-content .text-2 {
         font-size: 60px;
     }
