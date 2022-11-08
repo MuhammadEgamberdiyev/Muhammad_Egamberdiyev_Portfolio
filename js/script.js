@@ -58,7 +58,17 @@ $(document).ready(function() {
         backSpeed: 60,
         loop: true,
     });
-    
+    var typed = new Typed('.typing-3', {
+        strings: [
+            'Web developer',
+            'Fronted developer',
+            'Html',
+            'Css',
+        ],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true,
+    });
 
     // owl carousel script
     $('.carousel').owlCarousel({

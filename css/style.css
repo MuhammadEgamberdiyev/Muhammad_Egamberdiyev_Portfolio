@@ -906,7 +906,7 @@ a {
     .max-width {
         padding: 0 23px;
     }
-    .typing-2 {
+    .typing-2,.typing-3 {
         display: none;
     }
     .home .home-content .text-2 {
