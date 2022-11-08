@@ -809,6 +809,12 @@ a {
     }
 }
 
+@media (max-width: 1250px) {
+    .typing-2,.typing-3 {
+        display: none;
+    }
+}
+
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
