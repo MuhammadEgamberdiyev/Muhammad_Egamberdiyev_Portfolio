@@ -827,6 +827,9 @@ a {
         display: block;
         z-index: 999;
     }
+    .typing-2,.typing-3 {
+        display: none;
+    }
     .showcase {
         max-width: 100vw;
         flex-direction: column;
@@ -905,9 +908,6 @@ a {
 @media (max-width: 690px) {
     .max-width {
         padding: 0 23px;
-    }
-    .typing-2,.typing-3 {
-        display: none;
     }
     .home .home-content .text-2 {
         font-size: 60px;
