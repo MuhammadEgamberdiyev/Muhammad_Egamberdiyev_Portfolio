@@ -1,0 +1,55 @@
+/* ============================== rtl */
+$left:left;
+$right:right;
+
+/* ============================== typography */
+$h2-margin-bottom:100px;
+$h3-margin-bottom:30px;
+$section-padding-top1:50px;
+$section-padding-bottom1:100px;
+$section-padding-top2:100px;
+$section-padding-bottom2:100px;
+
+/* ============================== color */
+$color1:#ff652f;
+$color2:#0677a1;
+// green #067700;
+// $color2:#f44336;
+// $color2:rgb(103, 249, 212);
+// $color2:#00bcd4;
+// $color2:#9c5c8f;
+// $color2:#ff4081;
+$color3:#78244c;
+$footerColor:#010835;
+$white1:#fff;
+$white2:#f0f9ff;
+$white3:#ddd;
+$black1:#000;
+$black3:#000;
+$black3:#999;
+$overlay: #010835;
+
+/* ============================== element */
+/* navbar */
+$navbarOverlay: rgba($overlay,.95);
+$navbarBoxshadow: 0 0 5px 5px rgba($black1,.3);
+$toggleButtonColor: $white1;
+/* ============================== frameWork */
+$mediumSpeed: 1.5s;
+$fastMediumSpeed: .5s;
+$fastSpeed: .35s;
+
+$mediumPixel: 50px;
+$smallMediumPixel: 30px;
+$smallPixel: 15px;
+$xSmallPixel: 8px;
+
+
+
+
+$asideBgColor:#555;
+$asideColor1:#ddd;
+$asideColor2:#bbb;
+:root{
+    --smallPixel:$mediumPixel;
+}

@@ -1,2 +1,2 @@
-# muhammadegamberdiyev.uz
-Personal Portfolio
+# MuhammadEgamberdiyevPortfolio
+Portfolio website

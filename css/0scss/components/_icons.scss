@@ -1,0 +1,61 @@
+@import "../helpers/variables";
+/*==================================================================================================
+///////////////////////////////////////////    icons    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==================================================================================================*/
+.icon-lg {
+    transition: all 0.35s linear;
+    width: 100px;
+    height: 100px;
+    color: $color1;
+    border: 2px solid $color1;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 100px;
+    display: block;
+    margin: auto auto 30px;
+
+    &:hover {
+        color: $white1;
+        background-color: $color1;
+    }
+}
+
+.icon-sm1 {
+    display: block;
+    margin: auto;
+    transition: all 0.35s linear;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    color: $color1;
+    border: 1px solid $color1;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 80px;
+
+    &:hover {
+        color: $white1;
+        border: 1px solid $color1;
+        background-color: $color1;
+    }
+}
+
+.icon-sm2 {
+    display: block;
+    margin: auto;
+    transition: all 0.35s linear;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    color: $white1;
+    border: 1px solid $white1;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 80px;
+
+    &:hover {
+        color: $color1;
+        border: 1px solid $white1;
+        background-color: $white1;
+    }
+}

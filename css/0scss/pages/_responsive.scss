@@ -1,0 +1,309 @@
+/*==================================================================================================
+///////////////////////////////////////////    navbar    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==================================================================================================*/
+nav#navbar.navbar {
+    /* 500px heigh for navbar menu in mobile*/
+    @media (max-height: 580px) {
+        .links {
+            overflow: auto;
+            max-height: 95vh;
+        }
+    }
+    /* 0 to 600px */
+    @media (max-width: 600px) {
+        .wrap .links{
+            width: 50%;
+            min-width: 50%;
+            max-height: none; 
+        }
+    }
+    /* 992 */
+    @media (min-width: 992px) {
+        &.sticky {
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .wrap {
+            width: 85%;
+            margin: 0 10% 0 5%;
+
+            .logo {}
+
+            .toggleButton {
+                display: none !important;
+            }
+
+            .links {
+                position: initial;
+                top: auto;
+                right: auto;
+                left: auto;
+                display: flex !important;
+                float: $right;
+                overflow: initial;
+                justify-content: space-between;
+                width: 75%;
+                min-width: auto;
+                max-width: none;
+                height: 50px;
+                padding: 0 !important;
+                background-color: transparent;
+                line-height: 50px;
+
+                & > li {
+                    float: $left;
+                    padding: 0;
+                    text-align: center;
+
+                    a {
+                        color: $white1;
+                        font-size: 18px;
+                    }
+                    // active link underline & bubble speech
+                    &.active {
+                        a {
+                            position: relative;
+                            color: $color1;
+                            // for underline
+                            &::before {
+                                position: absolute;
+                                bottom: -2px;
+                                left: 50%;
+                                width: 100%;
+                                height: 2px;
+                                content: "";
+                                transform: translateX(-50%);
+                                background-color: $color1;
+                            }
+                            // for bubble speech
+                            &::after {
+                                position: absolute;
+                                bottom: -2px;
+                                left: 50%;
+                                content: "";
+                                transform: translate(-50%,100%);
+                                border-width: 5px;
+                                border-style: solid;
+                                border-color: $color1 transparent transparent transparent;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        & > a {
+                            padding: 0;
+                            color: $color1;
+                        }
+                    }
+                }
+
+                .my-dropdown {
+                    &:hover {
+                        & > a {
+                            color: $color1;
+                        }
+
+                        .my-dropdown-menu {
+                            visibility: visible;
+                            transform: translateX(-25%) scale3d(1,1,1) !important;
+                            opacity: 0.9;
+                        }
+                    }
+
+                    .my-dropdown-menu {
+                        position: absolute;
+                        display: block;
+                        visibility: hidden;
+                        width: 180px;
+                        margin-top: 5px;
+                        padding: 0 10px;
+                        transition: all $fastMediumSpeed;
+                        transform: translateX(-25%) scale3d(.5,.5,.5) !important;
+                        opacity: 0;
+                        background-color: $overlay;
+                        font-size: 16px;
+
+                        li {
+                            float: none;
+                            width: 100%;
+                            margin: 0;
+                            padding: 0 0 0 10px;
+                            text-align: left;
+
+                            &:hover {
+                                & > a {
+                                    color: $color1;
+                                }
+                            }
+
+                            a {
+                                color: $white1;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* 1200 */
+    @media (min-width:1200px) {
+        .wrap {
+            width: 85%;
+            margin: 0 10% 0 5%;
+
+            .links {
+                width: 60%;
+            }
+        }
+    }
+}
+/*==================================================================================================
+/////////////////////////////////////////////    header    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==================================================================================================*/
+
+#header header {
+    @media (max-width:767px) {
+        .socialLinks * {
+            display: none !important;
+        }
+        .headerImg {
+            background-position: 75% 50% !important;
+            .caption{
+                .name h1{
+                    font-size: 6.5vw;
+                }
+                .info h1{
+                    font-size: 5vw;
+                }
+                .place h1{
+                    font-size: 4vw;
+                }
+                .button a {
+                    button{
+                        width: 125px;
+                    }
+                    .my-button0{
+                        padding: 8px 20px;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width:470px) {
+        .headerImg .caption .button a button{
+            font-size: 3vw;
+        }
+    }
+    @media (max-width:400px) {
+        .headerImg .caption{
+            .button a {
+                display: block;
+                button{
+                    font-size: 4vw;
+                }
+            }
+        }
+    }
+}
+/*==================================================================================================
+/////////////////////////////////////////////    about    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==================================================================================================*/
+
+#about.about {
+    @media (min-width:768px) {
+        .img {
+            width: 80%;
+            max-width: 330px;
+            margin: 80px 0 0;
+        }
+    }
+}
+/*==================================================================================================
+/////////////////////////////////////////////    about    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==================================================================================================*/
+
+#portfolio .row.gallery {
+    @media (max-width:768px) {
+        .img {
+            height: calc(25vw);
+        }
+    }
+    @media (max-width:600px) {
+        .img {
+            height: calc(40vw);
+        }
+    }
+    @media (max-width:400px) {
+        .img {
+            height: calc(50vw);
+        }
+    }
+}
+/*==================================================================================================
+/////////////////////////////////////////////    hhhh    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==================================================================================================*/
+
+#portfolio .filters {
+    @media (max-width:350px) {
+        & > div {
+            display: block;
+            max-width: none;
+            flex: none !important;
+        }
+    }
+}
+/*==================================================================================================
+/////////////////////////////////////////////    absolute    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==================================================================================================*/
+/* parallax image background*/
+    @media (max-width:991px) {
+        .bg-decor.d-flex {
+            display: none !important;
+        }
+    }
+/************************* 1200px *************************/
+@media (max-width:991px) {
+    .h2,
+    h2 {
+        font-size: 26px;
+    }
+
+    .h3,
+    h3 {
+        font-size: 28px;
+    }
+}
+@media (min-width:992px) {
+    .h2,
+    h2 {
+        font-size: 32px;
+    }
+
+    .h3,
+    h3 {
+        font-size: 24px;
+    }
+}
+@media (min-width:1200px) {
+    .h2,
+    h2 {
+        font-size: 36px;
+    }
+
+    .h3,
+    h3 {
+        font-size: 22px;
+    }
+}
+
+.h1,
+h1 {
+    font-size: 48px;
+}
+
+.h4,
+h4 {
+    font-size: 18px;
+}
