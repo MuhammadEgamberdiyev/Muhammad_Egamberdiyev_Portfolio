@@ -119,11 +119,6 @@
   #RESET
 \*-----------------------------------*/
 
-
-.title_icon {
-  border-radius: 50%;
-}
-
 *, *::before, *::after {
   margin: 0;
   padding: 0;
